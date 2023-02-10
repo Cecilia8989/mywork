@@ -1,0 +1,6 @@
+input_string=input("Please enter a string: ")
+normalized_string= input_string.lower().strip()
+print(f"This string normalized is: {normalized_string}")
+input_string_lenght=len(input_string)
+normalized_string_lenght=len(normalized_string)
+print(f"We reduce the input string from {input_string_lenght} to {normalized_string_lenght}")
